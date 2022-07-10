@@ -36,19 +36,13 @@ with st.sidebar:
     st.sidebar.title("About")
     st.sidebar.info(
         """
-        This web is made to Monitor the Geospatial and environmental factors in Kenya. The objective is to site locate 
-        the appropriate areas for Region/county, agricultural value chains and
-        technology prioritization. RTLAB will utilize data
-        analytics such as large-scale simulations and scenario
-        analysis to inform decisions such as region/county
-        selection, agricultural value chains and technology
-        prioritization.
+        This web is made to Monitor the Geospatial and environmental factors in Morocco.
 
         *This analysis will complement CLASP’s ongoing efforts on
         region/county selection and inform a robust, data driven
         prioritization process.
 
-        More menu infos? please visit!: [RTLAB](https://streamlit.io)
+        More menu infos? please visit!: [GeoMID](https://ham811.github.io/streamli_app/)
     """
     )
 
