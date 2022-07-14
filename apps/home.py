@@ -7,7 +7,7 @@ def app():
 
     st.markdown(
         """
-    This RTLAB app will utilize data
+    This MorGis will utilize data
     analytics such as large-scale simulations and scenario
     analysis to inform decisions such as region/county
     selection, agricultural value chains and technology
