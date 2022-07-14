@@ -13,7 +13,7 @@ def app():
         latitude="lat",
         longitude="lng",
         value="population",
-        name="city",
+        name="Heat map",
         radius=20,
     )
     m.to_streamlit(height=700)
