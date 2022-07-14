@@ -4,9 +4,9 @@ import leafmap.foliumap as leafmap
 
 def app():
 
-    st.title("Heatmap")
+    st.title("Population Heatmap")
 
-    filepath = "https://raw.githubusercontent.com/giswqs/leafmap/master/examples/data/us_cities.csv"
+    filepath = "https://raw.githubusercontent.com/ham811/streamli_app/main/data/ma.csv"
     m = leafmap.Map(tiles="stamentoner")
     m.add_heatmap(
         filepath,
