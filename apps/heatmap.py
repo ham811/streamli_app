@@ -12,7 +12,7 @@ def app():
         filepath,
         latitude="lat",
         longitude="lng",
-        value="population_proper",
+        value="population",
         name="Heatmap",
         radius=20,
     )
