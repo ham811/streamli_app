@@ -12,8 +12,8 @@ def app():
         filepath,
         latitude="lat",
         longitude="lng",
-        value="population",
-        name="Heat map",
+        value="population_proper",
+        name="Heatmap",
         radius=20,
     )
     m.to_streamlit(height=700)
