@@ -6,7 +6,7 @@ def app():
 
     st.title("Population Heatmap")
 
-    filepath = "https://raw.githubusercontent.com/ham811/streamli_app/main/data/ma.csv"
+    filepath = "https://raw.githubusercontent.com/ham811/geo_apps/main/examples/data/ma.csv"
     m = leafmap.Map(tiles="stamentoner")
     m.add_heatmap(
         filepath,
