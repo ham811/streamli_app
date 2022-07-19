@@ -13,9 +13,9 @@ import matplotlib.pyplot as plt
 import plotly_express as px 
 
 
-def app():
-    st.title("Geocoding Application in Python")
-    st.markdown("Uppload a CSV File with address columns (Street name & number, Postcode, City)")
+
+st.title("Geocoding Application in Python")
+st.markdown("Uppload a CSV File with address columns (Street name & number, Postcode, City)")
 
 
 
