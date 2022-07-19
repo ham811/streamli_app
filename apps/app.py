@@ -14,10 +14,6 @@ import plotly_express as px
 
 
 
-
-
-
-
 def create_address_col(df):
     st.sidebar.title("Select Address columns")
     st.sidebar.info("You need to select address column (Street name and number), post code and City")
