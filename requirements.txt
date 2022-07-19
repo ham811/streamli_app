@@ -8,4 +8,9 @@ localtileserver
 nbserverproxy
 streamlit
 streamlit-option-menu
+pandas==1.3.3
+matplotlib==3.0.1
+geopy==1.20.0
+folium==0.9.1
+plotly_express==0.4.1
 
