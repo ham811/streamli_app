@@ -14,8 +14,7 @@ import plotly_express as px
 
 
 
-st.title("Geocoding Application in Python")
-st.markdown("Uppload a CSV File with address columns (Street name & number, Postcode, City)")
+
 
 
 
@@ -62,6 +61,8 @@ def download_csv(df):
 
 
 def app():
+    st.title("Geocoding Application in Python")
+    st.markdown("Uppload a CSV File with address columns (Street name & number, Postcode, City)")
     file = st.file_uploader("Choose a file")
     if file is not None:
         file.seek(0)
