@@ -12,8 +12,10 @@ from geopy.extra.rate_limiter import RateLimiter
 import matplotlib.pyplot as plt
 import plotly_express as px 
 
-st.title("Geocoding Application in Python")
-st.markdown("Uppload a CSV File with address columns (Street name & number, Postcode, City)")
+
+def app():
+    st.title("Geocoding Application in Python")
+    st.markdown("Uppload a CSV File with address columns (Street name & number, Postcode, City)")
 
 
 
@@ -59,7 +61,7 @@ def download_csv(df):
     return href
 
 
-def main():
+def app():
     file = st.file_uploader("Choose a file")
     if file is not None:
         file.seek(0)
@@ -102,4 +104,4 @@ def main():
             st.markdown(download_csv(geocoded_df), unsafe_allow_html=True)
 
 if __name__ == "__main__":
-    main()
+    app()

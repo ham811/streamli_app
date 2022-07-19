@@ -11,7 +11,7 @@ apps = [
     {"func": home.app, "title": "Home", "icon": "house"},
     {"func": heatmap.app, "title": "Heatmap", "icon": "map"},
     {"func": upload.app, "title": "Upload", "icon": "cloud-upload"},
-    {"func": app.app, "title": "Geocode", "icon": "geocode"},
+    {"func": app.app, "title": "Geocode", "icon": "map"},
 ]
 
 titles = [app["title"] for app in apps]
@@ -37,7 +37,7 @@ with st.sidebar:
     st.sidebar.title("About")
     st.sidebar.info(
         """
-        This web is made to Monitor the Geospatial and environmental factors in Morocco.
+        This App is made to Monitor the Geospatial and environmental factors in Morocco.
 
         *This analysis will complement CLASP’s ongoing efforts on
         region/county selection and inform a robust, data driven
