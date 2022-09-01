@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-from apps import home, heatmap, upload, app # import your app modules here
+from apps import home, heatmap, upload, app, timelapse, rasterviz, eedata, lcmap # import your app modules here
 
 st.set_page_config(page_title="GeoIT App", layout="wide")
 
@@ -8,10 +8,15 @@ st.set_page_config(page_title="GeoIT App", layout="wide")
 # More icons can be found here: https://icons.getbootstrap.com
 
 apps = [
-    {"func": home.app, "title": "Home", "icon": "house"},
+    {"func": timelapse.app, "title": "Timelapse", "icon": "📷"},
     {"func": heatmap.app, "title": "Heatmap", "icon": "map"},
     {"func": upload.app, "title": "Upload", "icon": "cloud-upload"},
     {"func": app.app, "title": "Geocode", "icon": "map"},
+    
+    {"func": rasterviz.app, "title": "Raster Data Visualization", "icon": "🏜️"},
+    {"func": eedata.app, "title": "Earth Engine Dataset", "icon": "🌍"},
+    {"func": lcmap.app, "title": "Land Cover Mapping", "icon": "🌲"},
+
 ]
 
 titles = [app["title"] for app in apps]
