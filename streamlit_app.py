@@ -12,10 +12,10 @@ apps = [
     {"func": home.app, "title": "Home", "icon": "home"},
     {"func": heatmap.app, "title": "Heatmap", "icon": "map"},
     {"func": upload.app, "title": "Upload", "icon": "cloud-upload"},
-    {"func": timelapse.app, "title": "Timelapse", "icon": "📷"},
-    {"func": rasterviz.app, "title": "Raster Data Visualization", "icon": "🏜️"},
-    {"func": eedata.app, "title": "Earth Engine Dataset", "icon": "🌍"},
-    {"func": lcmap.app, "title": "Land Cover Mapping", "icon": "🌲"},
+    # {"func": timelapse.app, "title": "Timelapse", "icon": "📷"},
+    # {"func": rasterviz.app, "title": "Raster Data Visualization", "icon": "🏜️"},
+    # {"func": eedata.app, "title": "Earth Engine Dataset", "icon": "🌍"},
+    # {"func": lcmap.app, "title": "Land Cover Mapping", "icon": "🌲"},
 ]
 
 titles = [app["title"] for app in apps]
